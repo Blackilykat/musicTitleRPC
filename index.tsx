@@ -197,7 +197,7 @@ var playbackStoppedTimeout: number | undefined;
 export default definePlugin({
     name: "MusicTitleRPC",
     description: "Makes the song's title appear as the activity name when listening to music.",
-    authors: [Devs.Blackilykat],
+    authors: [{ name: "Blackilykat", id: 442033332952498177n }],
     start: () => {
         FluxDispatcher.subscribe("LOCAL_ACTIVITY_UPDATE", handleUpdate);
     },
